@@ -1,8 +1,8 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// The entry: one dad joke — instant double-turn pun, eleven deadpan words,
-// punchline on the final syllable.
-const LINE = "I don't trust stairs. They're always up to something.";
+// The entry: one dad joke — fresh, perfectly table-ready, the punchline landing
+// on the final words with the groan built into the premise.
+const LINE = "My son asked me what it's like being a dad, so I woke him up at 3am to tell him.";
 
 const outDir = "/output";
 mkdirSync(outDir, { recursive: true });
